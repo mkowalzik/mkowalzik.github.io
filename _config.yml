@@ -18,21 +18,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: A Developer Evangelist's Awesome Thoughts
+subtitle: "Mathias Kowalzik's blog"
+author: Mathias Kowalzik
+
+# "kowalzik.biz - * is the time it takes for someone to understand"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Mathias Kowalzik's awesome thoughts on Software
+  Development
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/avatar.png
+
+# Your website URL
+# Used for Sitemap.xml and your RSS feed
+url: https://www.kowalzik.biz
+
+# <----------------- SOCIAL ---------------------->
+github_username: mkowalzik
+dribbble_username:
+email: info@kowalzik.biz
+facebook_username:
+flickr_username:
+instagram_username:
+linkedin_username: mathias-kowalzik
+pinterest_username:
+twitter_username: MathiasKowalzik
+youtube_username: # channel/<your_long_string> or user/<user-name>
+
+stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+rss: RSS # just type anything here for a working RSS icon
+
+# <------------------ META (SEO HEAD) ----------------->
+twitter:
+  username: MathiasKowalzik # TODO: replace variables {{ twitter_username }}
+  card: summary
+
 
 # Build settings
+show_excerpts: true
 theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude from processing.
 # The following items will not be processed, by default.

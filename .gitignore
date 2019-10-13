@@ -1,6 +1,9 @@
 _site
 _drafts
+_trash
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+.idea
+run.sh
