@@ -55,6 +55,12 @@ twitter:
   username: MathiasKowalzik # TODO: replace variables {{ twitter_username }}
   card: summary
 
+  
+# <------------------ HEADER LINKS -------------------->
+# If you want to link only specific pages in your header, uncomment
+# # this and add the path to the pages in order as they should show up
+header_pages:
+ - about.md
 
 # Build settings
 show_excerpts: true
